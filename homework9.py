@@ -1,6 +1,5 @@
 import random
-import math
-import sys
+
 
 # 実験条件の設定
 ads = [0.04, 0.04, 0.04, 0.08]
