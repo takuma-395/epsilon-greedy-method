@@ -99,8 +99,8 @@ epsilon = 0.1
 # ランダム広告をランダムに検索する回数
 exp_counts = [500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000]
 # 実験の実行回数
-try_num = 5
+try_num = 1000
 
-print('sumple_number: {}'.format(try_num))
+print('sample_number: {}'.format(try_num))
 print(exp_counts)
 print(do_experiment(ads, try_cnt, verbose, epsilon, exp_counts, try_num))
